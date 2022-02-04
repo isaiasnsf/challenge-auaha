@@ -1,0 +1,16 @@
+.home__container {
+  margin: 0 auto;
+  width: 1300px;
+}
+
+.home__tittle--1{
+  margin-top: 30px;
+}
+
+.home__text--1{
+  margin-top: 15px;
+}
+
+.home__img{
+  margin: 40px auto;
+}
