@@ -24,7 +24,6 @@
 .home__segmentation{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
 }
 
 .home__segmentation--main{
@@ -38,6 +37,10 @@
 
 @media screen and (max-width: 600px) {
 
+  .home__segmentation{
+    flex-wrap: wrap;
+  }
+
   .home__segmentation--main{
     margin: 0;
   }
@@ -48,6 +51,11 @@
 }
 
 @media screen and (max-width: 992px) {
+
+  .home__segmentation{
+    flex-wrap: wrap;
+  }
+
   .home__segmentation--main {
     width: 85vw;
     margin: 0;
