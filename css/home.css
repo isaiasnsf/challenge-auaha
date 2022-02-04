@@ -21,7 +21,7 @@
   padding: 50px 0;
 }
 
-.segmentation__list{
+.section-segmentation{
   display: flex;
   flex-direction: row;
 }
@@ -35,10 +35,29 @@
   width: 410px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 992px) {
+  .segmentation__img {
+    width: 85vw;
+  }
 
+  .segmentation__main {
+    width: 85vw;
+    margin: 0;
+  }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 600px) {
+  
+  .segmentation__list {
+    flex-wrap: wrap;
+  }
 
+  .segmentation__main {
+    margin: 0;
+    width: 85vw;
+  }
+
+  .segmentation__img {
+    width: 85vw;
+  }
 }
