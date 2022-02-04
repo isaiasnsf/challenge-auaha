@@ -37,9 +37,41 @@
 
 
 @media screen and (max-width: 992px) {
-  
+  .product__article{
+    flex-direction: column-reverse;
+  }
+  .product__article--right {
+    width: auto;
+    text-align: center;
+  }
+  .product__article--left {
+    width: auto;
+  }
+
+  .product__tittle{
+    margin-top: 15px;
+  }
+  .product__img {
+    width: 85vw;
+  }
 }
 
 @media screen and (max-width: 600px) {
+  .product__article{
+    flex-direction: column-reverse;
+  }
+  .product__article--right {
+    width: auto;
+    text-align: center;
+  }
+  .product__article--left {
+    width: auto;
+  }
 
+  .product__tittle{
+    margin-top: 15px;
+  }
+  .product__img {
+    width: 85vw;
+  }
 }

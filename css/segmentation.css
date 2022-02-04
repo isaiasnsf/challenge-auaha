@@ -29,6 +29,26 @@
   width: 410px;
 }
 
+@media screen and (max-width: 1300px) {
+  
+  .segmentation {
+    flex-wrap: wrap;
+  }
+
+  .segmentation__item{
+    margin: 0;
+    width: 85vw;
+  }
+
+  .segmentation__tittle{
+    margin-top: 15px;
+  }
+
+  .segmentation__img {
+    width: 85vw;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .segmentation__img {
     width: 85vw;
@@ -53,6 +73,10 @@
   .segmentation__item{
     margin: 0;
     width: 85vw;
+  }
+
+  .segmentation__tittle{
+    margin-top: 15px;
   }
 
   .segmentation__img {
